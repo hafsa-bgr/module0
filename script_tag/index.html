@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Javascript in een scriptag</h2>
+    <button id="knopScript">Hallo!</button>
+
+    <script>
+        document.getElementById ("knopScript").addEventListener ("click", function(){
+            this.innerText = this.innerText === "Hallo!" ? "Tot ziens!" : "Hallo!";
+
+        });
+    </script>
+</body>
+</html>
