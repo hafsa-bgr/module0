@@ -1,0 +1,21 @@
+body {
+    transition: background-color 0.3s, color 0.3s, link-color 0.3s;
+}
+
+body.dark-theme {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-theme a {
+    color: #FFD700;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+a {
+    color: #082442;
+}
